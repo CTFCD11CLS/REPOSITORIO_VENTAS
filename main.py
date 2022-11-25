@@ -6,7 +6,7 @@ edad=2022-año_nac;
 
 if edad>=18:
  semestre1=int(input("Ingrese las ventas del primer semenestre"));
- semestre2=int(input("Ingresse las ventas del segundo semestre"));
+ semestre2=int(input("Ingrese las ventas del segundo semestre"));
  ventas = int(semestre1+semestre2);
  if semestre1>semestre2:
   mayor="MEJOR SEMESTRE 1RO"
@@ -34,4 +34,4 @@ if edad>=18:
  print("PREMIO:",premio)
 
 else:
- print("ADIOS HASTA PRONTO");
+ print("ADIOS HASTA PRONTO ERES MENOR DE EDAD");
